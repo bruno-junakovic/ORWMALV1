@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3pt"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:text="@string/name"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@+id/ivPerson"/>
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:text="@string/date"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@id/tvName"
+        android:layout_toRightOf="@id/ivPerson"/>
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:text="@string/description"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/tvDate"
+        android:layout_toRightOf="@id/ivPerson"/>
+
+    <ImageView
+        android:id="@+id/ivPerson"
+        android:layout_width="100dp"
+        android:layout_height="170dp"
+        android:layout_marginRight="3pt"/>
+
+</RelativeLayout>

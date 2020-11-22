@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/grey">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/buEditDescription"
+        android:text="@string/edit"
+        android:layout_alignParentRight="true"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_margin="3pt"
+        android:layout_toRightOf="@id/etEditDescription"
+        android:layout_above="@id/rgRadioGroup"/>
+
+    <EditText
+        android:id="@+id/etEditDescription"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:hint="@string/edit_description"
+        android:textColor="@color/white"
+        android:textColorHint="@color/light_grey"
+        android:layout_margin="3pt"
+        android:layout_above="@id/rgRadioGroup"/>
+
+    <RadioGroup
+        android:id="@+id/rgRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:layout_above="@+id/buInspiration">
+    <RadioButton
+        android:id="@+id/rbElon"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:text="@string/elon"
+        android:textColor="@color/white"/>
+
+    <RadioButton
+        android:id="@+id/rbNeil"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:text="@string/neil"
+        android:textColor="@color/white"/>
+
+    <RadioButton
+        android:id="@+id/rbMuhammad"
+        android:layout_width="170dp"
+        android:layout_height="30dp"
+        android:text="@string/muhammad"
+        android:textColor="@color/white"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buInspiration"
+        android:text="@string/inspiration"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="3pt"/>
+
+</RelativeLayout>

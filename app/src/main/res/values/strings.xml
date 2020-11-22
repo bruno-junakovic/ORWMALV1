@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ORWMA_LV1</string>
+    <string name="name">Name</string>
+    <string name="date">DD/MM/YY - DD/MM/YY</string>
+    <string name="description">Add description</string>
+    <string name="neil">Neil</string>
+    <string name="elon">Elon</string>
+    <string name="muhammad">Muhammad Ali</string>
+    <string name="elon_quote1">"When something is important enough, you do it even if the odds are not in your favor."</string>
+    <string name="elon_quote2">"Some people don't like change, but you need to embrace change if the alternative is disaster."</string>
+    <string name="neil_quote1">"The good thing about science is that it's true whether or not you believe in it."</string>
+    <string name="neil_quote2">"Curious that we spend more time congratulating people who have succeeded than encouraging people who have not."</string>
+    <string name="muhammad_quote1">"Float like a butterfly, sting like a bee.</string>
+    <string name="muhammad_quote2">Don\'t count the days, make the days count.</string>
+    <string name="inspiration">Inspiration</string>
+    <string name="edit">Edit</string>
+    <string name="edit_description">Edit description</string>
+</resources>
